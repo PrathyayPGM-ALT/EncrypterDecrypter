@@ -11,9 +11,9 @@ This project lets you safely encrypt and decrypt any text using strong cryptogra
 
 ---
 
-## ✨ Features
+## Features
 
-### 🔐 Military-Grade Encryption
+### Military-Grade Encryption
 
 - AES-256 in **GCM mode** (authenticated encryption)
 - **PBKDF2-HMAC-SHA512** with 100,000 iterations for key derivation
@@ -22,14 +22,14 @@ This project lets you safely encrypt and decrypt any text using strong cryptogra
   - 16-byte nonce
   - 16-byte IV
 
-### 🛡 Integrity & Tamper Protection
+### Integrity & Tamper Protection
 
 - Full message authentication via **HMAC-SHA512**
 - Detects:
   - Incorrect passwords
   - Tampered / corrupted encrypted data
 
-### 💻 Modern GUI
+### Modern GUI
 
 - Built with **Tkinter** and **ttk** themed widgets
 - Separate sections for:
@@ -43,7 +43,7 @@ This project lets you safely encrypt and decrypt any text using strong cryptogra
   - **Use Default Password**
   - **Clear All**
 
-### ⚙️ Extra Details
+### Extra Details
 
 - Default password: `1234` (for testing only – you should change this)
 - Secure clipboard handling for encrypted text
@@ -51,7 +51,7 @@ This project lets you safely encrypt and decrypt any text using strong cryptogra
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 EncrypterDecrypter/
